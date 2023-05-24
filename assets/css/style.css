@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --white: white;
+}
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(54, 146, 245);
+  color: rgb(17, 89, 184);
+  line-height: 1.5;
+  background-image: url("../images/IMG_2634.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+}
+
+.page-box {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+header {
+  padding: 25px 30px 25px 30px;
+  background-color:darkslategray
+}
+
+header nav {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+nav a {
+  color: var(--white);
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+nav a:hover {
+  background-color:rgb(158, 171, 158);
+  font-style: bold;
+}
+
+.beginningText {
+  position: relative;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color:var(--white);
+}
+
+.beginningText h1 {
+  display: inline-block;
+  font-size: 50px;
+  background-color: cadetblue;
+}
+
+.main-style {
+  margin: 25px 0;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.main-style h2 {
+  flex: 0 0 20%;
+  padding-right: 10px;
+  border-right: 4px;
+  font-size: 3vw;
+}
+
+.main-style > div {
+  flex: 0 0 77%;
+}
+
+.main-style p {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.flex-work {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.flex-item {
+  border: 5px solid red;
+  height: 200px;
+  width: 250px;
+  flex-basis: calc(50% - 1em);
+  display: flex;
+  align-items: flex-end;
+  padding: 0 0 20px 0;
+  margin: 0.5em;
+  background-size: 80%;
+  font-size: 0.9rem;
+}
+
+.flex-item:first-child {
+    height: 300px;
+    width: 300px;
+    flex-basis: 100%;
+}
+
+.main-style div {
+  display: block;
+  overflow: hidden;
+}
+
+
+.p2 {
+  background-image: url("../images/1200px-Rock-paper-scissors.jpeg");
+  background-color: var(--white);
+}
+
+.p1 {
+  background-image: url("../images/il_fullxfull.4307323489_79yp.jpeg");
+}
+
+footer {
+  display: inline-block;
+  background-color: rgb(139, 172, 83);
+}
+
+footer div {
+  text-align: end;
+}
+
+footer span {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
