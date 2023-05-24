@@ -4,5 +4,7 @@ This project contains a live URL to my deployed portfolio containing a brief des
 
 ![alt text](../homework_2/assets/images/hw2_ss.jpg)
 
+http://127.0.0.1:5500/homework2/index.html
+
 
 
